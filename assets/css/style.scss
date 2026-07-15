@@ -1,7 +1,7 @@
 ---
 @import "{{ site.theme }}";
 
-.main-content {
+.main-content, body .wrapper, .page-content, section {
   position: relative;
   background: linear-gradient(120deg, #ffffff, #f0f4ff, #ffffff);
   background-size: 200% 200%;
