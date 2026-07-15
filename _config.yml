@@ -1,2 +1,5 @@
 title: 내 자료 모음
 theme: minima
+markdown: kramdown
+kramdown:
+input: GFM
