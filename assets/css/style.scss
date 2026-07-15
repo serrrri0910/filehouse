@@ -1,0 +1,19 @@
+---
+@import "{{ site.theme }}";
+
+.main-content {
+  position: relative;
+  background: linear-gradient(120deg, #ffffff, #f0f4ff, #ffffff);
+  background-size: 200% 200%;
+  animation: shine 6s ease infinite;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(120, 150, 255, 0.25);
+  border: 1px solid rgba(120, 150, 255, 0.3);
+}
+
+@keyframes shine {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
